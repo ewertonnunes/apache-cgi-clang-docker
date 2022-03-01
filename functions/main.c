@@ -1,6 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main() 
+int	ft_content_atoi();
+int ft_query_string();
+
+int main()
 {
 	printf( "Content-type: text/html\n\n" );
 	printf( "<html>\n" );
@@ -14,4 +18,3 @@ int main()
 	printf( "</html>\n" );
 	return 0;
 }
-
