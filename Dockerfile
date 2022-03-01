@@ -17,10 +17,10 @@ RUN a2enmod cgid
 RUN a2enmod cgi
 
 ### All Envinroment variables need to review and checkout if useful.
-ENV CONTENT_TYPE = "text/html"
-ENV CONTENT_LENGTH = 30
-ENV QUERY_STRING = "Ewer"
-ENV REQUEST_METHOD = "POST"
+ENV CONTENT_TYPE text/html
+ENV CONTENT_LENGTH 30
+ENV QUERY_STRING Ewer
+ENV REQUEST_METHOD POST
 
 ## Apache environment variables
 ENV APACHE_RUN_USER www-data
